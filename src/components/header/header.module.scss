@@ -1,0 +1,33 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 1rem;
+
+  border-bottom: 1px solid var(--color-accent-900);
+
+  .cinemaGuide {
+    cursor: pointer;
+    display: flex;
+    gap: 1rem;
+    color: var(--color-warning-300);
+  }
+
+  .menuItems {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    color: var(--color-info-100);
+
+    .menuItem {
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &:hover {
+        color: var(--color-warning-300);
+      }
+    }
+  }
+}
