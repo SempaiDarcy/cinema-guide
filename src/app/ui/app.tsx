@@ -1,5 +1,5 @@
-import { Typography } from '@/components/typography'
+import { Header } from '@/components/header'
 
 export function App() {
-  return <Typography variant={'h2'}>Hello</Typography>
+  return <Header />
 }
