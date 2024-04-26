@@ -1,0 +1,43 @@
+.searchBar {
+  display: flex;
+  align-items: center;
+
+  width: 100%;
+  padding: 10px;
+
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 10%);
+
+  .searchInput {
+    flex-grow: 1;
+
+    padding: 10px 20px;
+
+    font-size: 1rem;
+    color: #000;
+
+    border: none;
+    border-radius: 30px;
+    outline: none;
+  }
+
+  .searchButton {
+    cursor: pointer;
+
+    padding: 10px 20px;
+
+    color: white;
+    text-transform: uppercase;
+
+    background-color: var(--color-warning-300);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+
+    transition: background-color 0.3s;
+
+    &:hover {
+    }
+  }
+}
